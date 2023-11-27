@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treemaps</title>
+    <!-- Agrega el enlace a la biblioteca D3 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Agrega el enlace a tu script2.js -->
+    <script src="script2.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #title {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        #treemaps-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .treemap {
+            flex: 1;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">Treemaps</div>
+    <div id="treemaps-container">
+        <div id="undergraduate-treemap" class="treemap"></div>
+        <div id="graduate-treemap" class="treemap"></div>
+    </div>
+</body>
+</html>
+
+
